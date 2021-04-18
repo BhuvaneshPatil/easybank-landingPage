@@ -39,7 +39,7 @@ nav {
 .navbar-menu {
 	list-style: none;
 	display: flex;
-	transition: all 0.3s ease-in-out;
+	transition: all 0.2s 0s ease-in-out;
 }
 .nav-link {
 	padding: 20px 0;
@@ -444,6 +444,9 @@ footer .row {
 		align-items: center;
 		/* width: 100%; */
 	}
+	.footer-menu * {
+		margin: 8px 0;
+	}
 	.footer-last-col * {
 		align-self: center;
 	}
@@ -464,5 +467,17 @@ footer .row {
 	}
 	.menu-icon {
 		justify-self: flex-end;
+	}
+	.footer-branding {
+		margin-bottom: 10px;
+	}
+	.footer-branding > div {
+		margin: 10px 0;
+	}
+	.footer-last-col {
+		margin-top: 10px;
+	}
+	.footer-last-col * {
+		margin: 10px 0;
 	}
 }
